@@ -1,0 +1,79 @@
+/* #mi{
+    background-color: red;
+    width: 300PX;
+    display: inline-block;
+
+}
+#csk{
+    display: inline;
+    width: 300px;
+    background-color: yellow;
+}
+#rcb{
+    display: block;
+    width: 300px;
+    background-color: blue;
+}
+
+body{
+display: flex;
+} */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+nav{
+display: flex;
+justify-content: space-between;
+background-color: black;
+color: white;
+padding: 20px;
+}
+
+h1{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#left{
+    display: flex;
+    gap: 20px;
+}
+
+
+#right{
+    display: flex;
+    gap: 20px;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#cent{
+    display: flex;
+    gap: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
